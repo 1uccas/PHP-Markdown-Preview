@@ -6,6 +6,16 @@
 	<title>Markdown Preview</title>
 </head>
 <body>
-
+	<main class="main-container">
+		<div class="container">
+			<form action="" method="GET">
+				<div class="textareas">
+					<textarea rows="10" cols="50"></textarea>
+					<textarea rows="10" cols="50"></textarea>
+				</div>
+				<input type="submit" value="Enter">
+			</form>
+		</div>
+	</main>
 </body>
 </html>
