@@ -1,3 +1,10 @@
+<?php 
+function req(){
+	$req = $_GET['request-text'];
+
+	return $req;
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +18,7 @@
 			<form action="index.php" method="GET">
 				<div class="textareas">
 					<textarea rows="10" cols="50" name="request-text"></textarea>
-					<textarea rows="10" cols="50" name="response-text"></textarea>
+					<textarea rows="10" cols="50" name="response-text"><?php echo req(); ?></textarea>
 				</div>
 				<input type="submit" value="Enter">
 			</form>
