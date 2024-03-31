@@ -8,10 +8,10 @@
 <body>
 	<main class="main-container">
 		<div class="container">
-			<form action="" method="GET">
+			<form action="index.php" method="GET">
 				<div class="textareas">
-					<textarea rows="10" cols="50"></textarea>
-					<textarea rows="10" cols="50"></textarea>
+					<textarea rows="10" cols="50" name="request-text"></textarea>
+					<textarea rows="10" cols="50" name="response-text"></textarea>
 				</div>
 				<input type="submit" value="Enter">
 			</form>
