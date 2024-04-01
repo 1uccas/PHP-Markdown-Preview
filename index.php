@@ -1,4 +1,8 @@
 <?php 
+require_once 'vendor/erusev/parsedown/Parsedown.php';
+
+$Parsedown = new Parsedown();
+
 function req(){
 	$req = $_GET['request-text'];
 
