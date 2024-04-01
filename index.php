@@ -5,6 +5,7 @@ $Parsedown = new Parsedown();
 
 function req(){
 	$req = $_GET['request-text'];
+	$res = $_GET['response-text'] = "";
 
 	return $req;
 }
