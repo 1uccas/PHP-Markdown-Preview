@@ -23,7 +23,7 @@ function req(){
 			<form action="index.php" method="GET">
 				<div class="textareas">
 					<textarea rows="10" cols="50" name="request-text"></textarea>
-					<textarea rows="10" cols="50" name="response-text"><?php echo req(); ?></textarea>
+					<label><?php echo $Parsedown->text(req()); ?>
 				</div>
 				<input type="submit" value="Enter">
 			</form>
